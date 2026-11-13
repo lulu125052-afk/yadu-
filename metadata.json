@@ -1,0 +1,8 @@
+{
+  "name": "यदु (Yadu) — Pure Vedic Buffalo Bilona Ghee",
+  "description": "Experience 100% pure, hand-churned Vedic Murrah Buffalo Bilona Ghee (भैंस का बिलोना घी). Traditional Danedaar purity with direct WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

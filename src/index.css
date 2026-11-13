@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-cream: #FAF7F2;
+    --brand-warm-ivory: #F4EFE6;
+    --brand-sand: #EADFCF;
+    --brand-gold: #C98816;
+    --brand-deep-gold: #966107;
+    --brand-amber: #E29D2C;
+    --brand-brass: #B37D28;
+    --brand-copper: #8F4E24;
+    --brand-charcoal: #241D17;
+    --brand-earth: #3B2E24;
+    --brand-forest: #2A4836;
+  }
+
+  body {
+    background-color: var(--brand-cream);
+    color: var(--brand-charcoal);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-brand {
+  font-family: 'Rozha One', 'Cinzel', serif;
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-royal {
+  font-family: 'Cinzel', serif;
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Subtle traditional Indian royal motif / gold dust shimmer */
+.bg-mandala-pattern {
+  background-image: radial-gradient(#C98816 0.75px, transparent 0.75px), radial-gradient(#C98816 0.75px, #FAF7F2 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.04;
+}
+
+/* Soft gold gradient border */
+.gold-border {
+  border-color: rgba(201, 136, 22, 0.25);
+}
+
+.gold-glow {
+  box-shadow: 0 10px 30px -10px rgba(201, 136, 22, 0.25);
+}
